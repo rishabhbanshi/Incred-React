@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+body {
+  background-image: linear-gradient(#fe7763, #fc3a5d);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  justify-content: center;
+}
+.wrap {
+  height: 50vh;
+  /*This part is important for centering*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-banner {
+  width: 22ch;
+  animation: type 2s steps(22), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: "Itim", cursive;
+  font-size: 5em;
+}
+
+@keyframes type {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+.wrap1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.socialbttn {
+  width: 20em !important;
+  display: flex !important;
+  justify-content: center !important;
+}
+.otp {
+  display: flex;
+  justify-content: center;
+  height: 40px !important;
+  margin: 5px;
+  padding-bottom: 4px;
+}
+.otp_in {
+  height: 40px !important;
+  width: 40px !important;
+  font-size: 30px;
+  font-weight: bold;
+}
+.Input {
+  height: 30px;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 5px;
+  outline: none;
+  background: none;
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.errorCode{
+    font-size: 20px;
+    font-weight: bold;
+}

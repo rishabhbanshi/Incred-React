@@ -1,0 +1,42 @@
+.price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Josefin Sans", sans-serif;
+}
+.formcard {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 350px;
+  margin: auto;
+  margin-top: 5%;
+  padding: 10px;
+  border-radius: 5%;
+  border: 2px solid black;
+}
+.header {
+  font-size: 25px;
+  font-weight: bolder;
+  color: blue;
+  padding: 7px 0;
+  margin: 0;
+  border-bottom: 2px solid black;
+}
+.formcard input {
+  font-weight: bold;
+}
+.thank {
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+.thank > h1 {
+  font-family: "Josefin Sans", sans-serif;
+}
